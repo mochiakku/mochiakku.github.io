@@ -1,10 +1,85 @@
-body{
-    background-color: pink;
+/* styles.css */
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffe4e1; /* Light pink background */
+    padding: 0;
+    margin: 20px;
 }
-a{
-    padding: 3px;
+
+/* Header styling */
+header {
+    background: #ffa8d7; /* Deep pink background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
-header{
-    background-color: darkturquoise;
-    padding: 50px;
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1.1em;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background: #ff69b4; /* Lighter pink background on hover */
+    color: #fff;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #ffa8d7; /* Deep pink color for the heading */
+}
+
+.assignment {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.assignment h3 {
+    margin-top: 0;
+    color: #ffa8d7; /* Deep pink color for assignment titles */
+}
+
+.assignment p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.github-button {
+    display: inline-block;
+    background: #ffa8d7; /* Deep pink background */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.github-button:hover {
+    background: #ff69b4; /* Lighter pink background on hover */
 }
